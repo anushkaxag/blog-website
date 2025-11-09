@@ -1,7 +1,3 @@
-# To run:
-- Clone the repository
-- Install Dependencies: ```npm install```
-- run: ```skaffold dev```
 
 # About
 
@@ -18,3 +14,18 @@ A website built to explore and implement the concepts of microservices architect
 
 Used **Chocolatey** as the package manager for an efficient setup.<br>
 Leveraged **Skaffold** for smooth development and deployment workflows.<br>
+
+# Prerequisites:
+Before running this project locally, make sure you have following installed:
+- Node.js
+- Docker Desktop
+- Kubernetes
+- Kubectl
+- Skaffold
+
+# To run:
+- Clone the repository
+- Install Dependencies: ```npm install```
+- run: ```skaffold dev```
+
+
