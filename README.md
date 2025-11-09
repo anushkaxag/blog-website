@@ -17,15 +17,24 @@ Leveraged **Skaffold** for smooth development and deployment workflows.<br>
 
 # Prerequisites:
 Before running this project locally, make sure you have following installed:
-- Node.js
+- Node.js + Express.js + React.js
 - Docker Desktop
 - Kubernetes
 - Kubectl
 - Skaffold
+- Ingress-Nginx
 
 # To run:
 - Clone the repository
 - Install Dependencies: ```npm install```
 - run: ```skaffold dev```
+
+# To set up Docker + Kubernetes Cluster
+- build Dockerimage - docker built -t {image name}
+- push image on Docker hub - docker push {image name}
+- For configuration (since we are using skaffold and ingress-nginx)
+    - Deployment + service config file inside infra/k8s directory
+    - Add config to skaffold.yaml file [Automation]
+    - Configure Ingress-Nginx for routing requests from outside world
 
 
