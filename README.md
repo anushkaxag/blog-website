@@ -20,7 +20,6 @@ Before running this project locally, make sure you have following installed:
 - Node.js + Express.js + React.js
 - Docker Desktop
 - Kubernetes
-- Kubectl
 - Skaffold
 - Ingress-Nginx
 
